@@ -2008,7 +2008,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-hero {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   min-height: 82rem;
   overflow: hidden;
   background-color: transparent;
@@ -2033,13 +2033,13 @@ input::-moz-focus-inner {
 }
 
 .hero-content {
-  height: 100%;
+  height: 87%;
   max-width: 1400px;
   -ms-flex-align: end;
   -webkit-box-align: end;
   align-items: flex-end;
-  padding-top: 20vh;
-  padding-bottom: 14vh;
+  padding-top: 22vh;
+  padding-bottom: 20vh;
   position: relative;
 }
 
@@ -2395,6 +2395,16 @@ html.no-csstransitions .hero-content {
 }
 
 @media screen and (max-width:600px) {
+  .hero-content {
+    height: 95%;
+    max-width: 1400px;
+    -ms-flex-align: end;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    position: relative;
+  }
   .hero-content h1 {
     font-size: 4.6rem;
   }
